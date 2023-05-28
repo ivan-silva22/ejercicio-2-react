@@ -1,14 +1,16 @@
 import "./App.css";
-import NuevoTitulo from "./components/NuevoTitulo";
+import { Titulo } from "./components/Titulo";
+
 
 function App() {
 
   return (
-    <>
-      <h1>Hello World</h1>
-      <NuevoTitulo/>
-    </>
+    <section>
+      <Titulo nuevoTitulo = 'My friend'></Titulo>
+    </section>
   );
 }
+
+
 
 export default App;
